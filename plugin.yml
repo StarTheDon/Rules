@@ -1,0 +1,15 @@
+name: RulesAPI
+main: plugins/RulesAPI/Main
+author: Star
+api: 4.0.0
+version: 1.0
+
+commands:
+  rules:
+    description: "Run me to check all of the servers rules."
+    permission: rules.use
+    
+permission:
+  rules.use:
+    description: "Permissions to use rules"
+    default: true
